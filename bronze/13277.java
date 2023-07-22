@@ -10,7 +10,7 @@ public class Main {
         String[] arr = br.readLine().split(" ");
         BigInteger A = new BigInteger(arr[0]);
         BigInteger B = new BigInteger(arr[1]);
-        System.out.println(A.add(B));
+        System.out.println(A.multiply(B));
         }
     }
 
